@@ -1,12 +1,16 @@
 // Initial party checklist
 const partyChecklist = ["Music Playlist", "Snacks", "Decorations", "Games", "Invitations"];
+const extra = ["Drinks", "Pillows", "Movies"];
+
+for (let i = 0; i < 2; i++) {
+  partyChecklist.push(extra[i]);
+}
+
+for (let i = 0; i < 2; i++) {
+  partyChecklist.pop();
+}
+
+partyChecklist.sort();
 
 console.log("Initial Party Checklist:", partyChecklist);
-
-// Add 3 new items to the partyChecklist using a loop
-
-// Remove 2 items from the partyChecklist using a loop
-
-// Sort the partyChecklist in alphabetical order using a loop
-
 console.log("Final Party Checklist:", partyChecklist);

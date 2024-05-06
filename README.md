@@ -1,3 +1,4 @@
+
 ## ALFT: M5L4 - Loops  - Practice Activity
 
 1. Create an initial array called partyChecklist with at least 5 essential items or activities for the party
